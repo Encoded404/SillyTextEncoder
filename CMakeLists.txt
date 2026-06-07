@@ -8,9 +8,9 @@ if( NOT CMAKE_EXPERIMENTAL_CXX_IMPORT_STD )
 	endif ()
 endif ()
 
-set(PROJECT_NAME "ModernCMakeAppTemplate")
-set(LIBRARY_TARGET "ModernCMakeAppInternalLib")
-set(APP_TARGET "ModernCMakeApp")
+set(PROJECT_NAME "SillyTextEncoder")
+set(LIBRARY_TARGET "SillyTextEncoderInternalLib")
+set(APP_TARGET "SillyTextEncoderTool")
 
 # if this is not set by the user cmake will decide
 set(OUTPUT_PATH "${CMAKE_BINARY_DIR}/bin")
